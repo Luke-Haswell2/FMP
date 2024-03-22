@@ -20,9 +20,15 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    public GameObject flashlight;
+
+    public bool flashlightEnable;
+
     void Start()
     {
         isSprinting = false;
+        flashlightEnable = false;
+        flashlight.SetActive(false);
     }
     void Update()
     {
@@ -41,6 +47,13 @@ public class PlayerMovement : MonoBehaviour
             isSprinting = !isSprinting;
 
             ValidateRunning();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            flashlightEnable = !flashlightEnable;
+
+            ValidateFlashlight();
         }
     }
 
@@ -64,6 +77,18 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             speed = 3f;
+        }
+    }
+
+    public void ValidateFlashlight()
+    {
+        if (flashlightEnable == true)
+        {
+            flashlight.SetActive(true);
+        }
+        else
+        {
+            flashlight.SetActive(false);
         }
     }
 }
