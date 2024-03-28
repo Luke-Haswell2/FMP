@@ -4,5 +4,24 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 01e7899caba97294eafa03866f6d71a1
+  - enabled: 1
+    path: Assets/Scenes/Main Level.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Scenario Alpha.unity
+    guid: 5e11bd1ff3cee0a4ea43a0c42f4c2a1d
+  - enabled: 1
+    path: Assets/Scenes/Scenario Bravo.unity
+    guid: cfa790aa6053acc4e92f6575961a7844
+  - enabled: 1
+    path: Assets/Scenes/Scenario Charlie.unity
+    guid: 035c0d6dfd99ed44d855528a6bfa7843
+  - enabled: 1
+    path: Assets/Scenes/Scenario Delta.unity
+    guid: 3af46d1ac6e7bc64b8d3bd1b1e08fdfa
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
