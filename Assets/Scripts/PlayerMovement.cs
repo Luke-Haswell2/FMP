@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     float z;
 
     public bool isSprinting;
+    public bool isMoving;
+    public bool isRunning;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -54,6 +57,25 @@ public class PlayerMovement : MonoBehaviour
             flashlightEnable = !flashlightEnable;
 
             ValidateFlashlight();
+        }
+
+        //Audio
+
+        if (Input.GetKey("w"))
+        {
+
+        }
+        if (Input.GetKey("a"))
+        {
+
+        }
+        if (Input.GetKey("s"))
+        {
+
+        }
+        if (Input.GetKey("d"))
+        {
+
         }
     }
 
