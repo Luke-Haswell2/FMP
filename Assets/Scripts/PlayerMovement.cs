@@ -36,8 +36,13 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip tileWalk;
     public AudioClip woodWalk;
     public AudioClip metalWalk;
-    public AudioClip CarpetWalk;
+    public AudioClip carpetWalk;
     public AudioClip grassRun;
+    public AudioClip stoneRun;
+    public AudioClip tileRun;
+    public AudioClip woodRun;
+    public AudioClip metalRun;
+    public AudioClip carpetRun;
 
     void Start()
     {
@@ -73,7 +78,6 @@ public class PlayerMovement : MonoBehaviour
             ValidateFlashlight();
         }
 
-        //Audio
         FootstepChecker();
 
         if (check == true)
@@ -152,8 +156,23 @@ public class PlayerMovement : MonoBehaviour
                     case "Grass":
                         footsteps.PlayOneShot(grassRun);
                         break;
+                    case "Stone":
+                        footsteps.PlayOneShot(stoneRun);
+                        break;
+                    case "Tile":
+                        footsteps.PlayOneShot(tileRun);
+                        break;
+                    case "Wood":
+                        footsteps.PlayOneShot(woodRun);
+                        break;
+                    case "Metal":
+                        footsteps.PlayOneShot(metalRun);
+                        break;
+                    case "Carpet":
+                        footsteps.PlayOneShot(carpetRun);
+                        break;
                 }
-
+                footstepTimer = 0.4f;
             }
             else
             {
@@ -162,11 +181,24 @@ public class PlayerMovement : MonoBehaviour
                     case "Grass":
                         footsteps.PlayOneShot(grassWalk);
                         break;
+                    case "Stone":
+                        footsteps.PlayOneShot(stoneWalk);
+                        break;
+                    case "Tile":
+                        footsteps.PlayOneShot(tileWalk);
+                        break;
+                    case "Wood":
+                        footsteps.PlayOneShot(woodWalk);
+                        break;
+                    case "Metal":
+                        footsteps.PlayOneShot(metalWalk);
+                        break;
+                    case "Carpet":
+                        footsteps.PlayOneShot(carpetWalk);
+                        break;
                 }
+                footstepTimer = 0.6f;
             }
-
-            footstepTimer = 0.7f;
         }
-        
     }
 }
