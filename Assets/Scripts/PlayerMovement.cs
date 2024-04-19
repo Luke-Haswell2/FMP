@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isSprinting;
     public bool isMoving;
+    public bool check;
     public bool isRunning;
 
     public Transform groundCheck;
@@ -27,9 +28,22 @@ public class PlayerMovement : MonoBehaviour
 
     public bool flashlightEnable;
 
+    public float footstepTimer = 0;
+
+    public AudioSource footsteps;
+    public AudioClip grassWalk;
+    public AudioClip stoneWalk;
+    public AudioClip tileWalk;
+    public AudioClip woodWalk;
+    public AudioClip metalWalk;
+    public AudioClip CarpetWalk;
+    public AudioClip grassRun;
+
     void Start()
     {
+        check = true;
         isSprinting = false;
+        isMoving = false;
         flashlightEnable = false;
         flashlight.SetActive(false);
     }
@@ -60,22 +74,25 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Audio
+        FootstepChecker();
 
-        if (Input.GetKey("w"))
+        if (check == true)
         {
-
+            //print(x + " " + z);
+            //print(isMoving);
+            //print(isRunning);
         }
-        if (Input.GetKey("a"))
+        if (x != 0)
         {
-
+            isMoving = true;
         }
-        if (Input.GetKey("s"))
+        if (z != 0)
         {
-
+            isMoving = true;
         }
-        if (Input.GetKey("d"))
+        if (x == 0 && z == 0)
         {
-
+            isMoving = false;
         }
     }
 
@@ -89,16 +106,18 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
-
+    
     public void ValidateRunning()
     {
         if (isSprinting == true)
         {
             speed = 8f;
+            isRunning = true;
         }
         else
         {
             speed = 3f;
+            isRunning = false;
         }
     }
 
@@ -112,5 +131,42 @@ public class PlayerMovement : MonoBehaviour
         {
             flashlight.SetActive(false);
         }
+    }
+
+    public void FootstepChecker()
+    {
+        if (!isMoving) return;
+
+        RaycastHit hit;
+
+        footstepTimer -= Time.deltaTime;
+        
+        if (footstepTimer <= 0)
+        {
+            Physics.Raycast(transform.position, Vector3.down, out hit, 2f);
+
+            if (isRunning)
+            {
+                switch (hit.transform.tag)
+                {
+                    case "Grass":
+                        footsteps.PlayOneShot(grassRun);
+                        break;
+                }
+
+            }
+            else
+            {
+                switch (hit.transform.tag)
+                {
+                    case "Grass":
+                        footsteps.PlayOneShot(grassWalk);
+                        break;
+                }
+            }
+
+            footstepTimer = 0.7f;
+        }
+        
     }
 }

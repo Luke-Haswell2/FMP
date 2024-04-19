@@ -16,32 +16,41 @@ public class Menu : MonoBehaviour
 
     void Awake()
     {
-        sfxSlider.onValueChanged.AddListener(SetVolumeSFX);
+        if (PlayerPrefs.HasKey(MIXER_SFX))
+        {
+            ManualVolumeSet(PlayerPrefs.GetFloat(MIXER_SFX));
+        }
     }
-    void Update()
+
+    public void SetVolumeSFX()
     {
-
+        mixer.SetFloat(MIXER_SFX, sfxSlider.value);
+        PlayerPrefs.SetFloat(MIXER_SFX, sfxSlider.value);
     }
 
-    public void SetVolumeSFX(float volume)
+    public void ManualVolumeSet(float volume)
     {
         sfxSlider.value = volume;
 
         mixer.SetFloat(MIXER_SFX, volume);
+        PlayerPrefs.SetFloat(MIXER_SFX, volume);
     }
+
     public void ToggleSFX(int logic)
     {
         if (sfxtoggle.isOn == true)
         {
             logic = 1;
             sfxSlider.interactable = true;
-            SetVolumeSFX(0f);
+            ManualVolumeSet(0f);
+            PlayerPrefs.SetFloat(MIXER_SFX, sfxSlider.value);
         }
         else if (sfxtoggle.isOn == false)
         {
             logic = 0;
             sfxSlider.interactable = false;
-            SetVolumeSFX(-80);
+            ManualVolumeSet(-80);
+            PlayerPrefs.SetFloat(MIXER_SFX, sfxSlider.value);
         }
     }
 
