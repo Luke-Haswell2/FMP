@@ -8,6 +8,7 @@ public class CollectEvidence : MonoBehaviour
     public GameObject self;
     public GameObject collectText;
     public GameObject inventoryObject;
+    public GameObject notebookObject;
 
     public bool inReach;
 
@@ -27,6 +28,7 @@ public class CollectEvidence : MonoBehaviour
             collectSound.Play();
             collectText.SetActive(false);
             inventoryObject.SetActive(true);
+            notebookObject.SetActive(true);
         }
     }
 
