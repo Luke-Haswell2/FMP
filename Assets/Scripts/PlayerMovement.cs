@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
     public bool flashlightEnable;
 
+    public AudioSource flashlightClick;
+
     public float footstepTimer = 0;
 
     public AudioSource footsteps;
@@ -74,6 +76,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             flashlightEnable = !flashlightEnable;
+            flashlightClick.Play();
 
             ValidateFlashlight();
         }
