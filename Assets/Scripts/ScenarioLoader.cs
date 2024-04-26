@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 
 public class ScenarioLoader : MonoBehaviour
 {
-    //Add seperate text object for each object and text will be "Prosicute *name*" next line: "(Left Click)"
+    //Add seperate text object for each object and text will be "Prosicute *name*, reasoning,evidence,etc" bottom line: "(Left Click)"
     public GameObject collectText;
 
     //Tick box in inspector for which scene it will be loading
