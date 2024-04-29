@@ -10,9 +10,11 @@ public class Notebook : MonoBehaviour
 
     public GameObject notebookUI;
 
+    public GameObject pauseCheck;
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.N))
+        if (Input.GetKeyDown(KeyCode.N) && pauseCheck.activeSelf)
         {
             if (GameIsPaused)
             {

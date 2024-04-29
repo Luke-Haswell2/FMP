@@ -12,7 +12,18 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
-    
+    public GameObject notebookUI1;
+    public GameObject notebookUI2;
+    public GameObject notebookUI3;
+    public GameObject notebookUI4;
+    public GameObject notebookUI5;
+
+    public GameObject loaderUI1;
+    public GameObject loaderUI2;
+    public GameObject loaderUI3;
+    public GameObject loaderUI4;
+
+    public GameObject notebookPause;
 
     void Update()
     {
@@ -35,6 +46,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        notebookPause.SetActive(true);
     }
 
     void Pause()
@@ -43,6 +56,19 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         Cursor.lockState = CursorLockMode.None;
+
+        notebookPause.SetActive(false);
+
+        notebookUI1.SetActive(false);
+        notebookUI2.SetActive(false);
+        notebookUI3.SetActive(false);
+        notebookUI4.SetActive(false);
+        notebookUI5.SetActive(false);
+
+        loaderUI1.SetActive(false);
+        loaderUI2.SetActive(false);
+        loaderUI3.SetActive(false);
+        loaderUI4.SetActive(false);
     }
 
     public void LoadMenu()
