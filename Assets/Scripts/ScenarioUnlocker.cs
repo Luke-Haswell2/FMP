@@ -4,18 +4,25 @@ using UnityEngine;
 
 public class ScenarioUnlocker : MonoBehaviour
 {
-    public GameObject gun;
-    public GameObject knife;
     public GameObject alphaInfo;
     public GameObject bravoInfo;
     public GameObject charlieInfo;
     public GameObject deltaInfo;
+    public GameObject gun;
+    public GameObject knife;
     public GameObject pills;
-    public GameObject medBook;
-    public GameObject book1;
-    public GameObject book2;
-    public GameObject book3;
+    public GameObject medbook;
+    public GameObject bat;
+    public GameObject book1; //green
+    public GameObject book2; //blue
+    public GameObject book3; //red
+    public GameObject phone1; //white
+    public GameObject phone2; //green
+    public GameObject phone3; //red
+    public GameObject phone4; //blue
     public GameObject money;
+    public GameObject bottle;
+    public GameObject laptop;
 
     public GameObject scenarioAlpha;
     public GameObject scenarioBravo;
@@ -24,23 +31,23 @@ public class ScenarioUnlocker : MonoBehaviour
 
     void Update()
     {
-        //Alpha needs alpha info, knife, money, book 4, red phone, blue phone
-        if (gun.activeSelf && pills.activeSelf && alphaInfo.activeSelf)
+        //alpha needs: alpha info, gun, phone2(g), phone1(w), money
+        if (alphaInfo.activeSelf && gun.activeSelf && phone2.activeSelf && phone1.activeSelf && money.activeSelf)
         {
             scenarioAlpha.SetActive(true);
         }
-        //bravo needs: bravo info, gun, book3, blue phone
-        if (knife.activeSelf && book1.activeSelf && bravoInfo.activeSelf)
+        //bravo needs: bravo info, pills, medbook, phone3(r), phone1(w), book3(r)
+        if (bravoInfo.activeSelf && pills.activeSelf && medbook.activeSelf && phone3.activeSelf && phone1.activeSelf && book3.activeSelf)
         {
             scenarioBravo.SetActive(true);
         }
-        //charlie needs: charlie info, pills, medbook, book 1, green phone
-        if (charlieInfo.activeSelf)
+        //charlie needs: charlie info, bat, book1(g), laptop
+        if (charlieInfo.activeSelf && bat.activeSelf && book1.activeSelf && laptop.activeSelf)
         {
             scenarioCharlie.SetActive(true);
         }
-        //delta needs: delta info, bat, book 2, white phone
-        if (deltaInfo.activeSelf)
+        //delta needs: delta info, knife, phone4(b), book2(b), bottle
+        if (deltaInfo.activeSelf && knife.activeSelf && phone4.activeSelf && book2.activeSelf && bottle.activeSelf)
         {
             scenarioDelta.SetActive(true);
         }

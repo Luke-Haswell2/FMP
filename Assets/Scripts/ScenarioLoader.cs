@@ -26,28 +26,28 @@ public class ScenarioLoader : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && isAlpha)
         {
-            SceneManager.LoadScene("Scenario Alpha");
+            //SceneManager.LoadScene("Scenario Alpha");
             collectText.SetActive(false);
             print("Scene load alpha");
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && isBravo)
         {
-            SceneManager.LoadScene("Scenario Bravo");
+            //SceneManager.LoadScene("Scenario Bravo");
             collectText.SetActive(false);
             print("Scene load bravo");
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && isCharlie)
         {
-            SceneManager.LoadScene("Scenario Charlie");
+            //SceneManager.LoadScene("Scenario Charlie");
             collectText.SetActive(false);
             print("Scene load charlie");
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && isDelta)
         {
-            SceneManager.LoadScene("Scenario Delta");
+            //SceneManager.LoadScene("Scenario Delta");
             collectText.SetActive(false);
             print("Scene load delta");
         }
