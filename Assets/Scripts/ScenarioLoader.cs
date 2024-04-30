@@ -7,11 +7,14 @@ using UnityEngine.Audio;
 public class ScenarioLoader : MonoBehaviour
 {
     //Add seperate text object for each object
-    public GameObject collectText;
+    public GameObject notEnoughText;
 
     public bool inReach;
 
     public GameObject menu;
+
+    public GameObject evidenceCollected;
+    public GameObject convictText;
 
     void Start()
     {
@@ -24,26 +27,38 @@ public class ScenarioLoader : MonoBehaviour
         {
             Time.timeScale = 0f;
             Cursor.lockState = CursorLockMode.None;
-            collectText.SetActive(false);
+            convictText.SetActive(false);
             menu.SetActive(true);
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Reach")
+        if (other.gameObject.tag == "Reach" && evidenceCollected.activeSelf == false)
+        {
+            //inReach = true;
+            notEnoughText.SetActive(true);
+        }
+
+        if (other.gameObject.tag == "Reach" && evidenceCollected.activeSelf)
         {
             inReach = true;
-            collectText.SetActive(true);
+            convictText.SetActive(true);
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Reach")
+        if (other.gameObject.tag == "Reach" && evidenceCollected.activeSelf == false)
+        {
+            //inReach = false;
+            notEnoughText.SetActive(false);
+        }
+
+        if (other.gameObject.tag == "Reach" && evidenceCollected.activeSelf)
         {
             inReach = false;
-            collectText.SetActive(false);
+            convictText.SetActive(false);
         }
     }
 }
