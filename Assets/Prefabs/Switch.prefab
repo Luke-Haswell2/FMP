@@ -191,12 +191,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4971989245184956185}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 1.4160652, y: -0.34400004, z: 0.26840544}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.4287252, y: -0.93864274, z: -0.8493805}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5496584577345598216}
+  m_Father: {fileID: 8930830524333983671}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &3669558150015950314
 Light:
@@ -260,6 +260,38 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &5257964128715256739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8930830524333983671}
+  m_Layer: 0
+  m_Name: Light(s)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8930830524333983671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5257964128715256739}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0.99137497, y: 0.8703625, z: -0.20091593}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4577263889070591924}
+  m_Father: {fileID: 5496584577345598216}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5527269822375773303
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,7 +409,7 @@ Transform:
   - {fileID: 5438860170440293379}
   - {fileID: 1195256595063181958}
   - {fileID: 2548190703871832013}
-  - {fileID: 4577263889070591924}
+  - {fileID: 8930830524333983671}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
 --- !u!65 &3347360605634857699
@@ -416,7 +448,7 @@ MonoBehaviour:
   onSwitch: {fileID: 5527269822375773303}
   offSwitch: {fileID: 986454507747140398}
   lightText: {fileID: 0}
-  lightObject: {fileID: 4971989245184956185}
+  lightObject: {fileID: 5257964128715256739}
   switchSound: {fileID: 0}
   lightsAreOn: 0
   lightsAreOff: 0
