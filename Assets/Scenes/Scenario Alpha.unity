@@ -1505,7 +1505,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Information Text
+  m_text: 'Information Text
+
+    (wrong, no gunshot reported, money was not from
+    killing v there is prrof that it was legally obtained at a job and was coming
+    over to get money) agent fired.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
