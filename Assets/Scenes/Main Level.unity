@@ -4207,17 +4207,17 @@ MonoBehaviour:
   gravity: -9.81
   isSprinting: 0
   isMoving: 0
-  check: 0
   isRunning: 0
+  check: 0
   groundCheck: {fileID: 379398714}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  footstepTimer: 0
   flashlight: {fileID: 894503639}
   flashlightEnable: 0
   flashlightClick: {fileID: 396556613}
-  footstepTimer: 0
   footsteps: {fileID: 379398715}
   grassWalk: {fileID: 8300000, guid: c98c6b4375d0b1e4193f9e678966559a, type: 3}
   stoneWalk: {fileID: 8300000, guid: a03a96c5d1e99b4409ddd79098abd9ab, type: 3}
@@ -6939,11 +6939,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f30ad3db2a4fa1428b35018cd8bd234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notEnoughText: {fileID: 865421613}
-  inReach: 0
-  menu: {fileID: 1395183670}
-  evidenceCollected: {fileID: 385680626}
   convictText: {fileID: 501518624}
+  notEnoughText: {fileID: 865421613}
+  evidenceCollected: {fileID: 385680626}
+  menu: {fileID: 1395183670}
+  inReach: 0
 --- !u!64 &369498853
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14891,11 +14891,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f30ad3db2a4fa1428b35018cd8bd234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notEnoughText: {fileID: 865421613}
-  inReach: 0
-  menu: {fileID: 1884709680}
-  evidenceCollected: {fileID: 2091813704}
   convictText: {fileID: 644006434}
+  notEnoughText: {fileID: 865421613}
+  evidenceCollected: {fileID: 2091813704}
+  menu: {fileID: 1884709680}
+  inReach: 0
 --- !u!64 &792559143
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18274,7 +18274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0bd034d9de707a4a8af4191138a1998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 900
+  mouseSensitivity: 100
   playerBody: {fileID: 233068110}
 --- !u!1 &966241081
 GameObject:
@@ -29246,11 +29246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f30ad3db2a4fa1428b35018cd8bd234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notEnoughText: {fileID: 865421613}
-  inReach: 0
-  menu: {fileID: 1771810827}
-  evidenceCollected: {fileID: 474991797}
   convictText: {fileID: 1714317992}
+  notEnoughText: {fileID: 865421613}
+  evidenceCollected: {fileID: 474991797}
+  menu: {fileID: 1771810827}
+  inReach: 0
 --- !u!64 &1588783741
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31069,11 +31069,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f30ad3db2a4fa1428b35018cd8bd234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notEnoughText: {fileID: 865421613}
-  inReach: 0
-  menu: {fileID: 832946638}
-  evidenceCollected: {fileID: 2081501005}
   convictText: {fileID: 1322570347}
+  notEnoughText: {fileID: 865421613}
+  evidenceCollected: {fileID: 2081501005}
+  menu: {fileID: 832946638}
+  inReach: 0
 --- !u!1 &1669039809
 GameObject:
   m_ObjectHideFlags: 0
