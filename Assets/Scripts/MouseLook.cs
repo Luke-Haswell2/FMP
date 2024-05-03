@@ -13,6 +13,17 @@ public class MouseLook : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+
+        if (Application.isEditor)
+        {
+            //editor
+            mouseSensitivity = 900f;
+        }
+        else
+        {
+            //build
+            mouseSensitivity = 100f;
+        }
     }
 
     void LateUpdate()
