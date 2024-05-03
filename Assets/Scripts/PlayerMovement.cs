@@ -14,8 +14,9 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isSprinting;
     public bool isMoving;
-    public bool check;
     public bool isRunning;
+    //used for checking 
+    public bool check;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -23,15 +24,14 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+    
+    public float footstepTimer = 0;
 
     public GameObject flashlight;
 
     public bool flashlightEnable;
 
     public AudioSource flashlightClick;
-
-    public float footstepTimer = 0;
-
     public AudioSource footsteps;
     public AudioClip grassWalk;
     public AudioClip stoneWalk;
@@ -48,11 +48,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        check = true;
         isSprinting = false;
         isMoving = false;
         flashlightEnable = false;
         flashlight.SetActive(false);
+
+        check = true;
     }
     void Update()
     {
@@ -83,12 +84,14 @@ public class PlayerMovement : MonoBehaviour
 
         FootstepChecker();
 
+        // used to prink values to console to check if and what parts of movement were working
         if (check == true)
         {
             //print(x + " " + z);
             //print(isMoving);
             //print(isRunning);
         }
+
         if (x != 0)
         {
             isMoving = true;

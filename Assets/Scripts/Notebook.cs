@@ -8,7 +8,8 @@ public class Notebook : MonoBehaviour
 {
     public static bool GameIsPaused = false;
 
-    public GameObject notebookUI;
+    public GameObject page1;
+    public GameObject[] notebookUI;
 
     public GameObject pauseCheck;
 
@@ -29,15 +30,20 @@ public class Notebook : MonoBehaviour
 
     public void Resume()
     {
-        notebookUI.SetActive(false);
+        //notebookUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
+        foreach (GameObject obj in notebookUI)
+        {
+            obj.SetActive(false);
+        }
     }
 
     void NotebookActive()
     {
-        notebookUI.SetActive(true);
+        //notebookUI.SetActive(true);
+        page1.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
         Cursor.lockState = CursorLockMode.None;

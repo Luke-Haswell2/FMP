@@ -7,14 +7,12 @@ using UnityEngine.Audio;
 public class ScenarioLoader : MonoBehaviour
 {
     //Add seperate text object for each object
+    public GameObject convictText;
     public GameObject notEnoughText;
-
-    public bool inReach;
-
+    public GameObject evidenceCollected;
     public GameObject menu;
 
-    public GameObject evidenceCollected;
-    public GameObject convictText;
+    public bool inReach;
 
     void Start()
     {
