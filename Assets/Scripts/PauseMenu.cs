@@ -24,6 +24,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject loaderUI4;
 
     public GameObject notebookPause;
+    public GameObject loaderPause;
 
     void Update()
     {
@@ -48,6 +49,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
 
         notebookPause.SetActive(true);
+        loaderPause.SetActive(true);
     }
 
     void Pause()
@@ -58,6 +60,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
 
         notebookPause.SetActive(false);
+        loaderPause.SetActive(false);
 
         notebookUI1.SetActive(false);
         notebookUI2.SetActive(false);

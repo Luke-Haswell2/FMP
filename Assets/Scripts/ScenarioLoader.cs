@@ -11,7 +11,7 @@ public class ScenarioLoader : MonoBehaviour
     public GameObject notEnoughText;
     public GameObject evidenceCollected;
     public GameObject menu;
-
+    public GameObject pauseCheck;
     public bool inReach;
 
     void Start()
@@ -21,7 +21,7 @@ public class ScenarioLoader : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && pauseCheck.activeSelf)
         {
             Time.timeScale = 0f;
             Cursor.lockState = CursorLockMode.None;
