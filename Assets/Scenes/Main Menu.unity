@@ -1975,13 +1975,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Special Agent *name*,\nYour assignment today is to investigate the murder
-    of *name* who was found dead in their home. Search the crime scene for evidence
-    and find out who the killer is. When you have the evidence go to the van and
-    select which suspect you believe is the killer. Remeber to check everywhere in
-    and around the house as we don't want to miss anything. Remember to use your
-    notebook to keep track of what eveidence you have collected. There will be more
-    information about the suspects in the van. \nGood Luck."
+  m_text: "Special Agent Nolan Cassidy,\nYour assignment today is to investigate
+    the murder of Lieutenant Sierra Knight who was found dead in their home. Search
+    the crime scene for evidence and find out who the killer is. When you have the
+    evidence go to the van and select which suspect you believe is the killer. Remeber
+    to check everywhere in and around the house as we don't want to miss anything.
+    Remember to use your notebook to keep track of what eveidence you have collected.
+    There will be more information about the suspects in the van. \nGood Luck."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
