@@ -830,8 +830,8 @@ MonoBehaviour:
   m_text: 'Brad is Sierra''s brother and was the person who found her body in the
     living room. He claims he came over to get something from the house.
 
-    Infomation
-    from file in truck.'
+    [Information
+    from file in truck]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1644,11 +1644,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The knife has fresh finger prints which are Erics. Eric faintly remebers
-    doing something with the knife but claims to be too hung over to remeber exactly.
+  m_text: 'The knife has fresh finger prints which are Eric''s. Eric faintly remembers
+    doing something with the knife but claims to be too hung over to remember exactly.
 
-    Found
-    in the bath drain in the bathroom.'
+    [Found
+    in the bath drain in the bathroom]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.15
+  m_fontSize: 30.8
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1783,8 +1783,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "$1,000 hidden in the bathroom with Brad's finger prints on. Brad denys
-    knowing why there would be money with his prints on hidden there. \nFound behind
-    the toilet in the bathroom."
+    knowing why there would be money with his prints on hidden there. \n[Found behind
+    the toilet in the bathroom]"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3245,11 +3245,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Eric is in a relationship whith Sierra and lives at the house. They claim
+  m_text: 'Eric is in a relationship with Sierra and lives at the house. They claim
     that they think they were out at a bar before coming home but doesn''t fully
     remember.
 
-    Infomation from file in truck.'
+    [Information from file in truck]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4366,15 +4366,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information phone4
+  m_text: 'Conatins research about cheating in relationships. Call history indicates
+    that Eric had a phone call with somebody around the time of the murder.
 
-    (reasons for killing+phone call around time of
-    murder
-
-    d room)
-
-
-    Found in Eric and Sierra''s room.'
+    [Found
+    in Eric and Sierra''s room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4401,10 +4397,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 33.9
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -6676,9 +6672,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The gun is registered to Sierra but has Brad's finger prints on it. Brad
-    cliams he threw away the gun as he didn't like it being in the house. \nFound
-    in the trash outside."
+  m_text: 'The gun is registered to Sierra but has Brad''s finger prints on it. Brad
+    claims he threw away the gun as he didn''t like it being in the house.
+
+    [Found
+    in the trash outside]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7332,6 +7330,25 @@ MonoBehaviour:
   - {fileID: 1961383909}
   - {fileID: 1230988663}
   - {fileID: 1484029693}
+  - {fileID: 64102315}
+  - {fileID: 1758831884}
+  - {fileID: 1765751762}
+  - {fileID: 190532319}
+  - {fileID: 352036886}
+  - {fileID: 130535426}
+  - {fileID: 1124065428}
+  - {fileID: 1385083068}
+  - {fileID: 1926100295}
+  - {fileID: 2115858216}
+  - {fileID: 938461915}
+  - {fileID: 236018907}
+  - {fileID: 935714428}
+  - {fileID: 708800945}
+  - {fileID: 1070476623}
+  - {fileID: 1828720185}
+  - {fileID: 132088676}
+  - {fileID: 438444511}
+  - {fileID: 2024079772}
   pauseCheck: {fileID: 844996898}
 --- !u!114 &379929160
 MonoBehaviour:
@@ -8690,7 +8707,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Kalvin's laptop was last used on a online store website. The time when
-    it was used was around the time of the murder. \nFound in the living room."
+    it was used was around the time of the murder. \n[Found in the living room]"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13212,15 +13229,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information book2
+  m_text: 'Part of a letter Eric was writing: "I believe that Sierra is cheating
+    on me with some guy in the navy. I am just so angry and I want to confront Sierra
+    about this".
 
-    (reasons why d could of killed
-
-    found in d
-    room)
-
-
-    Found in Eric and Sierra''s room.'
+    [Found in Eric and Sierra''s room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13247,10 +13260,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 32.3
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -17758,15 +17771,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information book1
+  m_text: 'Entry in Kalvin''s diary: "The navy rejected my application to enlist
+    due to my stupid violent history. Unlike "Spectacular Sierra" whos never done
+    anything wrong".
 
-    (reasons why c could of (rejected from navy)
-
-    found
-    in kitchen)
-
-
-    Found in the kitchen.'
+    [Found in the kitchen]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17793,10 +17802,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 33.9
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -17900,15 +17909,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information phone3
+  m_text: 'Text messages about blaming Sierra for not helping out after getting kicked
+    out of med school. Also contains research about different medicine and what they
+    do.
 
-    (reasons why could of(never helped after kicked
-    out of med school)
-
-    b room)
-
-
-    Found in Noel''s room.'
+    [Found in Noel''s room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17935,10 +17940,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 33.3
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -20258,15 +20263,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information book3
+  m_text: 'Entry in Noel''s journal: "After getting kicked out of medical school
+    there was no sympathy from anyone, especially Sierra as she just kept teasing
+    and mocking me".
 
-    (reasons why B could of killed
-
-    b room)
-
-
-    Found
-    in Noels room.'
+    [Found in Noel''s room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -20293,10 +20294,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 33.9
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -21223,15 +21224,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information pills
+  m_text: 'Pill bottle with Noel''s finger prints on. Bottle label indicates the
+    pills are dissolvable painkillers that could be deadly with the wrong dosage.
 
-    (b med background+prints+lethal pills
-
-    found
-    in kitchen)
-
-
-    Found in the kitchen.'
+    [Found
+    in the kitchen]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21258,10 +21255,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 35.8
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -24695,8 +24692,8 @@ MonoBehaviour:
   m_text: 'Bat has Kalvin''s finger prints on it and looks like it was used heavily.
     Kalvin claims he brought it with him because he practices baseball.
 
-    Found
-    behind sofa in living room.'
+    [Found
+    behind sofa in living room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -33424,8 +33421,8 @@ MonoBehaviour:
   m_text: 'Noel is Sierra''s roomate and was at home when they were murdered. He
     claims he had passed out on his bed due to a head injury he had gotten.
 
-    Infomation
-    from file in truck.'
+    [Information
+    from file in truck]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -33562,8 +33559,8 @@ MonoBehaviour:
   m_text: 'Kalvin is staying over at the house for a bit while they are in town.
     They claim they went on a walk before anybody got home.
 
-    Infomation from
-    file in truck.'
+    [Information from
+    file in truck]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -34344,8 +34341,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Information medbook\n(has info regarding the pills in bottle \nfound in
-    B room)\n\nFound in Noel's room."
+  m_text: 'Contains information about medicine that a medical student would need.
+    Some pages that are marked have information about medicine that could be lethal
+    and deadly.
+
+    [Found in Noel''s room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -34372,7 +34372,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 33.9
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -34574,7 +34574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1834885208
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35993,15 +35993,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information phone1
+  m_text: 'Recived texts from both Brad and Noel that were agressive and semi threatening.
+    Sent messages to friends and family about being back in town from deployment.
 
-    (reasons why a or b could of
-
-    found on liv
-    room floor)
-
-
-    Found in living room.'
+    [Found
+    in living room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -36028,10 +36024,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 33.9
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -37490,8 +37486,8 @@ MonoBehaviour:
   m_text: 'Beer bottle with Eric''s DNA on it and a significant logo on the bottle.
     The logo indicates it is beer that is only served in only one bar.
 
-    Found
-    in Eric and Sierra''s room.'
+    [Found
+    in Eric and Sierra''s room]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -38966,15 +38962,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information phone2
-
-    (reasons why could of (money issues)
-
-    found
-    in liv room)
-
-
-    Found in living room.'
+  m_text: "Text messages between Brad and Sierra about Brad's current situation involving
+    a lack of money. Sketchy contacts and calls from blocked numbers. \n[Found in
+    living room]"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -39001,10 +38991,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
+  m_fontSize: 33.9
   m_fontSizeBase: 32
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
