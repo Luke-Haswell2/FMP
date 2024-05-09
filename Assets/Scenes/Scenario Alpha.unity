@@ -1398,7 +1398,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46.5
+  m_fontSize: 54.5
   m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1505,11 +1505,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information Text
-
-    (wrong, no gunshot reported, money was not from
-    killing v there is prrof that it was legally obtained at a job and was coming
-    over to get money) agent fired.'
+  m_text: "Your theory that Brad knight had killed Sierra Knight was incorrect. There
+    was no reports of a gun shot in the area around the time of death. New evidence
+    has been found giving the suspect an alibi. Further questioning of the suspect
+    revealed that the money was not obtained ligitimatly and legally as the sketchy
+    conections in his phone were linked to a drug cartel which he worked for. The
+    reason he was going to the house was to get the money he had hidden there. \n\nThe
+    outcome for you following this incident has yet to be decided however you are
+    suspended until further notice."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1536,13 +1539,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 19.65
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535

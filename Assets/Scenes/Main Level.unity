@@ -406,15 +406,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Evidence:
 
-    Pills...
-
-    phones...
-
-    notes...
-
-    file...
-
-    extra...
+    Noel is Sierra''s roomate who was mocked and made fun of
+    for being kicked out of medical school. He decided enough was enough so he researched
+    about medicine that could be deadly. He gave Sierra a lethal dosage of pills
+    which would kill her and then pretend he was injured and unaware that she had
+    been killed.
 
 '
   m_isRightToLeft: 0
@@ -443,10 +439,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 19.75
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -3919,15 +3915,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Evidence:
 
-    Gun...
-
-    phones...
-
-    money...
-
-    file...
-
-'
+    Brad didn''t have a great relationship with his sister
+    due to him needing money. The gun being thrown away could suggest he tried to
+    get rid of the weapon they used it. The hidden money and suspicious contacts
+    in his phone could suggest that Sierra was a target and that he got paid for
+    assasinating her.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3954,10 +3946,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 20.05
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -27555,20 +27547,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Evidence:
 
-    knife...
-
-    phone...
-
-    file...
-
-    note...
-
-    extra...
-
-    (came
-    home drunk and in a drink fueled rage killed sierra)
-
-'
+    Brad was in a relationship with Sierra and believed she
+    was cheating on him with another man. After coming home drunk he saw Sierra and
+    the kitchen knife so he decided to confront her but ending up killing her. He
+    then dumped the knife in the bath drain and fell asleep unaware of his actions.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27595,10 +27577,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 20.05
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -39596,15 +39578,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Evidence:
 
-    bat...
-
-    note...
-
-    file...
-
-    extra...
-
-'
+    Kalvin while staying over with Sierra might of become jealous
+    that she was in the navy and he wasn''t. With his previous history of violence
+    he picked up his bat and decided to attack Sierra in an act of rage. He then
+    procided to leave the house and only returned to collect their belongings.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -39631,10 +39608,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 20.05
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1

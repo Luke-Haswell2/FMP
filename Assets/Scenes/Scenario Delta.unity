@@ -966,12 +966,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information Text
+  m_text: 'Your theory that Eric Soders had killed Sierra Knight was incorrect. Futher
+    questioning of the suspect reveals that they remember why the knife was in the
+    bath drain which is that they tried to get a spider with it, while drunk of course.
+    The person that they were having a phone call with reveals that it was a video
+    call and that Eric fell asleep mid way through, supporting their innocence.
 
-    (wrong, further investigation into bar reveals they
-    were there and video call on phone with soembody proves they fell asleep before
-    murder and were still after and knife was in drain because they tried to get
-    a spider while driunk) agent fired.'
+
+    The
+    outcome for you following this incident has yet to be decided however you are
+    suspended until further notice.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -998,13 +1002,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 21.7
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535

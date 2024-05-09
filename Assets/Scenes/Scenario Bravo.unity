@@ -1080,11 +1080,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information Text
-
-    (correct, attempted to beat up earlier in day but
-    hot hit and ran away, confesses to poisoning them as v didnt care about them
-    and didnt offer support when kicked out of med school)'
+  m_text: Your theory that Noel Crest had killed Sierra Knight was correct. The suspect
+    revealed that they had tried to attack the victim the previous day but failed
+    and got a head injury. They also admitted to putting a lethal dosage of pills
+    in the victims drink which caused the victim to die. Noel wanted revenge on Sierra
+    for being successful in life as well as revenge for the constant teasing and
+    mocking for being kicked out of medical school.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1111,13 +1112,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 24.1
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535

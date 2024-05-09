@@ -1122,11 +1122,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Information Text
-
-    (wrong, further investigation into online shopping
-    and finds was still shopping on phone while on walk and phone provides location
-    to be too far away) agent fired.'
+  m_text: "Your theory that Kalvin Grey had killed Sierra Knight was incorrect. The
+    evidence of online shopping on the laptop stopped before the murder but after
+    investigating the suspects phone it reveals that they continued while on their
+    walk. The phone also gave information about where the suspect was during the
+    time of the murder. \n\nThe outcome for you following this incident has yet to
+    be decided however you are suspended until further notice."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1153,13 +1154,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 23.6
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
