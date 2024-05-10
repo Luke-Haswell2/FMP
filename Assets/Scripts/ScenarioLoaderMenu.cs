@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ScenarioLoaderMenu : MonoBehaviour
 {
+    public GameObject notebookPause;
 
     public void LoadAlpha()
     {
@@ -34,5 +35,6 @@ public class ScenarioLoaderMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         Cursor.lockState = CursorLockMode.Locked;
+        notebookPause.SetActive(true);
     }
 }

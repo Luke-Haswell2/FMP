@@ -84,7 +84,7 @@ public class PlayerMovement : MonoBehaviour
 
         FootstepChecker();
 
-        // used to prink values to console to check if and what parts of movement were working
+        // used to print values to console to check if and what parts of movement were working
         if (check == true)
         {
             //print(x + " " + z);

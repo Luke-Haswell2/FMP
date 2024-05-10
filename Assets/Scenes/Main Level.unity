@@ -3917,9 +3917,9 @@ MonoBehaviour:
 
     Brad didn''t have a great relationship with his sister
     due to him needing money. The gun being thrown away could suggest he tried to
-    get rid of the weapon they used it. The hidden money and suspicious contacts
-    in his phone could suggest that Sierra was a target and that he got paid for
-    assasinating her.'
+    get rid of the weapon they used. The hidden money and suspicious contacts in
+    his phone could suggest that Sierra was a target and that he got paid for assassinating
+    her.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7022,6 +7022,7 @@ MonoBehaviour:
   evidenceCollected: {fileID: 385680626}
   menu: {fileID: 1395183670}
   pauseCheck: {fileID: 1126228851}
+  notebookPause: {fileID: 844996898}
   inReach: 0
 --- !u!64 &369498853
 MeshCollider:
@@ -15060,6 +15061,7 @@ MonoBehaviour:
   evidenceCollected: {fileID: 2091813704}
   menu: {fileID: 1884709680}
   pauseCheck: {fileID: 1126228851}
+  notebookPause: {fileID: 844996898}
   inReach: 0
 --- !u!64 &792559143
 MeshCollider:
@@ -18857,6 +18859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ad79aee3bd169d4e808b667334de0ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  notebookPause: {fileID: 844996898}
 --- !u!114 &984619503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27549,7 +27552,7 @@ MonoBehaviour:
 
     Brad was in a relationship with Sierra and believed she
     was cheating on him with another man. After coming home drunk he saw Sierra and
-    the kitchen knife so he decided to confront her but ending up killing her. He
+    the kitchen knife so he decided to confront her but ended up killing her. He
     then dumped the knife in the bath drain and fell asleep unaware of his actions.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -29583,6 +29586,7 @@ MonoBehaviour:
   evidenceCollected: {fileID: 474991797}
   menu: {fileID: 1771810827}
   pauseCheck: {fileID: 1126228851}
+  notebookPause: {fileID: 844996898}
   inReach: 0
 --- !u!64 &1588783741
 MeshCollider:
@@ -31407,6 +31411,7 @@ MonoBehaviour:
   evidenceCollected: {fileID: 2081501005}
   menu: {fileID: 832946638}
   pauseCheck: {fileID: 1126228851}
+  notebookPause: {fileID: 844996898}
   inReach: 0
 --- !u!1 &1669039809
 GameObject:
@@ -39581,7 +39586,7 @@ MonoBehaviour:
     Kalvin while staying over with Sierra might of become jealous
     that she was in the navy and he wasn''t. With his previous history of violence
     he picked up his bat and decided to attack Sierra in an act of rage. He then
-    procided to leave the house and only returned to collect their belongings.'
+    proceeded to leave the house and only returned to collect their belongings.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

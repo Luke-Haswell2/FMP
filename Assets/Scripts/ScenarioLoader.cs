@@ -12,6 +12,7 @@ public class ScenarioLoader : MonoBehaviour
     public GameObject evidenceCollected;
     public GameObject menu;
     public GameObject pauseCheck;
+    public GameObject notebookPause;
     public bool inReach;
 
     void Start()
@@ -27,6 +28,7 @@ public class ScenarioLoader : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             convictText.SetActive(false);
             menu.SetActive(true);
+            notebookPause.SetActive(false);
         }
     }
 
