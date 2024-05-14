@@ -1056,20 +1056,19 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'WASD for movement.
 
-    Mouse for moving looking around.
+    Mouse for looking around.
 
-    Left Shift
-    to toggle sprinting.
+    Left Shift to toggle
+    sprinting.
 
-    Left mouse click for interacting.
+    Left Mouse click for interacting.
 
-    Right mouse
-    click for flashlight.
+    Right Mouse click for
+    flashlight.
 
     N for opening the notebook.
 
-    M for pausing the
-    game.
+    M for pausing the game.
 
 '
   m_isRightToLeft: 0
@@ -1978,8 +1977,8 @@ MonoBehaviour:
   m_text: "Special Agent Nolan Cassidy,\nYour assignment today is to investigate
     the murder of Lieutenant Sierra Knight who was found dead in their home. Search
     the crime scene for evidence and find out who the killer is. When you have the
-    evidence go to the truck and select which suspect you believe is the killer.
-    Remeber to check everywhere in and around the house as we don't want to miss
+    evidence go to the truck and choose which suspect you believe is the killer.
+    Remember to check everywhere in and around the house as we don't want to miss
     anything. Remember to use your notebook to keep track of what evidence you have
     collected. There will be more information about the suspects in the truck. \nGood
     Luck."
@@ -2904,7 +2903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your Assignement
+  m_text: Your Assignment
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
