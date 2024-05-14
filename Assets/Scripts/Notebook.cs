@@ -13,6 +13,8 @@ public class Notebook : MonoBehaviour
 
     public GameObject pauseCheck;
 
+    public GameObject reachTool;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.N) && pauseCheck.activeSelf)
@@ -38,6 +40,7 @@ public class Notebook : MonoBehaviour
         {
             obj.SetActive(false);
         }
+        reachTool.SetActive(true);
     }
 
     void NotebookActive()
@@ -47,5 +50,6 @@ public class Notebook : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
         Cursor.lockState = CursorLockMode.None;
+        reachTool.SetActive(false);
     }
 }

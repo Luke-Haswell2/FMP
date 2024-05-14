@@ -26,6 +26,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject notebookPause;
     public GameObject loaderPause;
 
+    public GameObject reachTool;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.M))
@@ -50,6 +52,8 @@ public class PauseMenu : MonoBehaviour
 
         notebookPause.SetActive(true);
         loaderPause.SetActive(true);
+
+        reachTool.SetActive(true);
     }
 
     void Pause()
@@ -72,6 +76,8 @@ public class PauseMenu : MonoBehaviour
         loaderUI2.SetActive(false);
         loaderUI3.SetActive(false);
         loaderUI4.SetActive(false);
+
+        reachTool.SetActive(false);
     }
 
     public void LoadMenu()
