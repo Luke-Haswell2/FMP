@@ -12,6 +12,7 @@ public class Door : MonoBehaviour
     public AudioSource doorSound;
 
     public bool inReach;
+    public GameObject reachTool;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class Door : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && reachTool.activeSelf)
         {
             DoorOpens();
         }

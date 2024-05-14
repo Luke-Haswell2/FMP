@@ -14,6 +14,7 @@ public class Notebook : MonoBehaviour
     public GameObject pauseCheck;
 
     public GameObject reachTool;
+    //public float waitTimer = 0;
 
     void Update()
     {
@@ -40,7 +41,15 @@ public class Notebook : MonoBehaviour
         {
             obj.SetActive(false);
         }
-        reachTool.SetActive(true);
+
+        /*
+        waitTimer -= Time.deltaTime;
+        if (waitTimer <= 0)
+        {
+            reachTool.SetActive(true);
+        }*/
+
+        Invoke("ReachDelay", 0.1f);
     }
 
     void NotebookActive()
@@ -51,5 +60,11 @@ public class Notebook : MonoBehaviour
         GameIsPaused = true;
         Cursor.lockState = CursorLockMode.None;
         reachTool.SetActive(false);
+        //waitTimer = 0.5f;
+    }
+
+    public void ReachDelay()
+    {
+        reachTool.SetActive(true);
     }
 }

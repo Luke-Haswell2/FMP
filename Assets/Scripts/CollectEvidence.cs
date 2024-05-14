@@ -13,6 +13,8 @@ public class CollectEvidence : MonoBehaviour
 
     public bool inReach;
 
+    public GameObject reachTool;
+
     public AudioSource collectSound;
 
     void Start()
@@ -22,7 +24,7 @@ public class CollectEvidence : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && reachTool.activeSelf)
         {
             print("interact worked");
             self.SetActive(false);

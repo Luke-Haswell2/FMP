@@ -14,6 +14,7 @@ public class ScenarioLoader : MonoBehaviour
     public GameObject pauseCheck;
     public GameObject notebookPause;
     public bool inReach;
+    public GameObject reachTool;
 
     void Start()
     {
@@ -22,7 +23,7 @@ public class ScenarioLoader : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && pauseCheck.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && pauseCheck.activeSelf && reachTool.activeSelf)
         {
             Time.timeScale = 0f;
             Cursor.lockState = CursorLockMode.None;

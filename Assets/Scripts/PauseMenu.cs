@@ -27,6 +27,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject loaderPause;
 
     public GameObject reachTool;
+    //public float waitTimer = 0f;
 
     void Update()
     {
@@ -52,8 +53,14 @@ public class PauseMenu : MonoBehaviour
 
         notebookPause.SetActive(true);
         loaderPause.SetActive(true);
+        /*
+        waitTimer -= Time.deltaTime;
+        if (waitTimer <= 0)
+        {
+            reachTool.SetActive(true);
+        }*/
 
-        reachTool.SetActive(true);
+        Invoke("ReachDelay", 0.1f);
     }
 
     void Pause()
@@ -78,11 +85,18 @@ public class PauseMenu : MonoBehaviour
         loaderUI4.SetActive(false);
 
         reachTool.SetActive(false);
+
+        //waitTimer = 0.5f;
     }
 
     public void LoadMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
+    }
+
+    public void ReachDelay()
+    {
+        reachTool.SetActive(true);
     }
 }

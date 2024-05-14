@@ -17,6 +17,7 @@ public class LightSwitch : MonoBehaviour
     public bool lightsAreOn;
     public bool lightsAreOff;
     public bool inReach;
+    public GameObject reachTool;
 
     void Start()
     {
@@ -30,7 +31,7 @@ public class LightSwitch : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && lightsAreOn)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && lightsAreOn && reachTool.activeSelf)
         {
             lightObject.SetActive(false);
             onSwitch.SetActive(false);
@@ -40,7 +41,7 @@ public class LightSwitch : MonoBehaviour
             lightsAreOn = false;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && lightsAreOff)
+        else if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && lightsAreOff && reachTool.activeSelf)
         {
             lightObject.SetActive(true);
             onSwitch.SetActive(true);
