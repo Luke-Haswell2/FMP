@@ -16519,20 +16519,19 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'WASD for movement.
 
-    Mouse for moving looking around.
+    Mouse for looking around.
 
-    Left Shift
-    to toggle sprinting.
+    Left Shift to toggle
+    sprinting.
 
-    Left mouse click for interacting.
+    Left Mouse click for interacting.
 
-    Right mouse
-    click for flashlight.
+    Right Mouse click for
+    flashlight.
 
     N for opening the notebook.
 
-    M for pausing the
-    game.
+    M for pausing the game.
 
 '
   m_isRightToLeft: 0
@@ -22305,13 +22304,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.67559016, y: 0, z: 0, w: 0.7372774}
+  m_LocalRotation: {x: -0.68778473, y: 0, z: 0, w: 0.7259148}
   m_LocalPosition: {x: 36.8, y: 6, z: -79.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 85, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -86.91, y: 0, z: 0}
 --- !u!1 &705903566
 GameObject:
   m_ObjectHideFlags: 0
@@ -34834,8 +34833,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pill bottle with Noel''s finger prints on. Bottle label indicates the
-    pills are dissolvable painkillers that could be deadly with the wrong dosage.
+  m_text: 'A pill bottle with Noel''s finger prints on. The bottle label indicates
+    the pills are dissolvable painkillers that could be deadly with the wrong dosage.
 
     [Found
     in the kitchen]'
@@ -34865,7 +34864,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.8
+  m_fontSize: 34
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -41770,7 +41769,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Bat has Kalvin''s finger prints on it and looks like it was used heavily.
+  m_text: 'The bat has Kalvin''s finger prints on it and looks like it was used heavily.
     Kalvin claims he brought it with him because he practices baseball.
 
     [Found
@@ -65146,8 +65145,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Text messages between Brad and Sierra about Brad's current situation involving
-    a lack of money. Sketchy contacts and calls from blocked numbers. \n[Found in
-    living room]"
+    a lack of money. Also contains sketchy contacts and calls from blocked numbers.
+    \n[Found in living room]"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -65174,7 +65173,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.9
+  m_fontSize: 32.5
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
