@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ba9a100ec278db48bce7dcc04cbabf0
+timeCreated: 1429292366
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34912
+  packageName: Traffic Cones
+  packageVersion: 1.0
+  assetPath: Assets/IndustrialEnvironment/TrafficCone/Materials/TrafficConeRed.mat
+  uploadId: 59796

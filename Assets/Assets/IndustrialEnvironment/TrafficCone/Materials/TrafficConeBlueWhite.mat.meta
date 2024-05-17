@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 959f80d9af3953d448e4a70a30b1f25b
+timeCreated: 1429291833
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34912
+  packageName: Traffic Cones
+  packageVersion: 1.0
+  assetPath: Assets/IndustrialEnvironment/TrafficCone/Materials/TrafficConeBlueWhite.mat
+  uploadId: 59796

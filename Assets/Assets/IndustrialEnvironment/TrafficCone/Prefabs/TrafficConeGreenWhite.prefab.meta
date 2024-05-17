@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: af80c1274a3185e4388e793d1c89224f
+timeCreated: 1429292849
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34912
+  packageName: Traffic Cones
+  packageVersion: 1.0
+  assetPath: Assets/IndustrialEnvironment/TrafficCone/Prefabs/TrafficConeGreenWhite.prefab
+  uploadId: 59796

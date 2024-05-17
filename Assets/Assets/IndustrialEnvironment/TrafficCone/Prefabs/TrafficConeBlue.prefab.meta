@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 007198db004fd7c4085252328c712258
+timeCreated: 1429292846
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34912
+  packageName: Traffic Cones
+  packageVersion: 1.0
+  assetPath: Assets/IndustrialEnvironment/TrafficCone/Prefabs/TrafficConeBlue.prefab
+  uploadId: 59796

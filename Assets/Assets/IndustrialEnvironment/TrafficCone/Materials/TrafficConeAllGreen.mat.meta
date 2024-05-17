@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4624579ec9d78c54db5cd1fd1439e0fb
+timeCreated: 1429292493
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 34912
+  packageName: Traffic Cones
+  packageVersion: 1.0
+  assetPath: Assets/IndustrialEnvironment/TrafficCone/Materials/TrafficConeAllGreen.mat
+  uploadId: 59796
