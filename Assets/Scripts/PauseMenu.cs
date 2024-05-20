@@ -17,6 +17,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject notebookUI3;
     public GameObject notebookUI4;
     public GameObject notebookUI5;
+    public GameObject notebookUI6;
 
     public GameObject loaderUI1;
     public GameObject loaderUI2;
@@ -78,6 +79,7 @@ public class PauseMenu : MonoBehaviour
         notebookUI3.SetActive(false);
         notebookUI4.SetActive(false);
         notebookUI5.SetActive(false);
+        notebookUI6.SetActive(false);
 
         loaderUI1.SetActive(false);
         loaderUI2.SetActive(false);

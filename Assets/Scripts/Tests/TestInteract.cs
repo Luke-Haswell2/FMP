@@ -5,10 +5,18 @@ using UnityEngine;
 public class TestInteract : MonoBehaviour
 {
     public GameObject self;
+    public GameObject collectText;
     public GameObject text;
     public GameObject[] evidence;
+    public GameObject[] inventory;
+    public GameObject[] blankPhotos;
+    public GameObject[] notebookButtons;
 
     public bool inReach;
+
+    public GameObject reachTool;
+
+    public AudioSource collectSound;
 
     void Start()
     {
@@ -17,12 +25,26 @@ public class TestInteract : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && inReach && reachTool.activeSelf)
         {
             print("interact worked");
             self.SetActive(false);
-            text.SetActive(false);
+            collectText.SetActive(false);
+            text.SetActive(true);
+            collectSound.Play();
             foreach (GameObject obj in evidence)
+            {
+                obj.SetActive(false);
+            }
+            foreach (GameObject obj in inventory)
+            {
+                obj.SetActive(true);
+            }
+            foreach (GameObject obj in blankPhotos)
+            {
+                obj.SetActive(false);
+            }
+            foreach (GameObject obj in notebookButtons)
             {
                 obj.SetActive(true);
             }
@@ -34,7 +56,7 @@ public class TestInteract : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = true;
-            text.SetActive(true);
+            collectText.SetActive(true);
         }
     }
 
@@ -43,7 +65,7 @@ public class TestInteract : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = false;
-            text.SetActive(false);
+            collectText.SetActive(false);
         }
     }
 }
