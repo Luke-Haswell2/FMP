@@ -6,6 +6,7 @@ public class TestInteract : MonoBehaviour
 {
     public GameObject self;
     public GameObject text;
+    public GameObject[] evidence;
 
     public bool inReach;
 
@@ -21,6 +22,10 @@ public class TestInteract : MonoBehaviour
             print("interact worked");
             self.SetActive(false);
             text.SetActive(false);
+            foreach (GameObject obj in evidence)
+            {
+                obj.SetActive(true);
+            }
         }
     }
 
