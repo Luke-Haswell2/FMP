@@ -45,19 +45,19 @@ public class ScenarioUnlocker : MonoBehaviour
     public TextMeshProUGUI extraText;
     public TextMeshProUGUI totalText;
 
-    public int truck = 0;
-    public int outside = 0;
-    public int livingRoom = 0;
-    public int kitchen = 0;
-    public int bedroom = 0; //noel bedroom
-    public int bigBedroom = 0; //eric + sierra bedroom
-    public int bathroom = 0;
-    public int suspects = 0;
-    public int weapons = 0;
-    public int phones = 0;
-    public int notes = 0;
-    public int extra = 0;
-    public int total = 0;
+    [HideInInspector] public int truck = 0;
+    [HideInInspector] public int outside = 0;
+    [HideInInspector] public int livingRoom = 0;
+    [HideInInspector] public int kitchen = 0;
+    [HideInInspector] public int bedroom = 0; //noel bedroom
+    [HideInInspector] public int bigBedroom = 0; //eric + sierra bedroom
+    [HideInInspector] public int bathroom = 0;
+    [HideInInspector] public int suspects = 0;
+    [HideInInspector] public int weapons = 0;
+    [HideInInspector] public int phones = 0;
+    [HideInInspector] public int notes = 0;
+    [HideInInspector] public int extra = 0;
+    [HideInInspector] public int total = 0;
 
     [HideInInspector] public bool alphaInfoCollected;
     [HideInInspector] public bool bravoInfoCollected;
